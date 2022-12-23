@@ -1,0 +1,379 @@
+<!-- header -->
+<!DOCTYPE html>
+<html lang="en">
+	<!-- favicon -->
+	<link rel="image" href="public/icon/favicon.ico" />
+
+	<title>Med's Tree Removal</title>
+
+	<meta
+		name="description"
+		content="Med's Tree Removal is family owned and operated, serving Harnett, Johnston, Wake, Cumberland, and surrounding areas. Our business is insured, and we guarantee that you will be satisfied with any work we do for you. We have multiple vehicles and equipment that allow us to serve a variety of needs in your home or business." />
+	<meta
+		name="keywords"
+		content="Tree, Removal, lawn care, Yard, Stump Removal, Lot Clearing, Trash Removal, Debris Clean-up, Gravel, Mulch, Tree Trimming, Trimming, Tree Removal, Lawn, Landscaping" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- bootstrap icons -->
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="public/css/bootstrap.min.css" />
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+		rel="stylesheet" />
+	<!-- My css -->
+	<link rel="stylesheet" href="public/css/med.css" />
+
+	<!-- favicon -->
+	<link
+		rel="apple-touch-icon"
+		sizes="180x180"
+		href="public/icon/apple-touch-icon.png" />
+	<link
+		rel="icon"
+		type="image/png"
+		sizes="32x32"
+		href="public/icon/favicon-32x32.png" />
+	<link
+		rel="icon"
+		type="image/png"
+		sizes="16x16"
+		href="public/icon/favicon-16x16.png" />
+
+	<link rel="manifest" href="public/site.webmanifest" />
+	<script src="public/js/jquery.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
+
+	<body>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg bg-light fixed-top">
+			<div class="container-fluid">
+				<a
+					class="navbar-brand d-flex align-items-center"
+					href="#"
+					aria-label="Nav Brand">
+					<img src="public/icon/favicon-32x32.png" alt="icon" class="img" />
+					<span class="navBrand ps-2">Med's Tree Removal</span>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header navHeadColor py-2">
+						<h5
+							class="offcanvas-title me-auto ms-auto"
+							id="offcanvasNavbarLabel">
+							Med's Tree Removal
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body text-center navText">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item mx-lg-3">
+								<a
+									class="nav-link rounded-4 bi bi-images"
+									href="gallery.html"
+									aria-label="Nav Gallery">
+									Gallery</a
+								>
+							</li>
+							<li class="nav-item my-3 my-lg-0">
+								<a
+									class="nav-link rounded-4 bi bi-person-lines-fill"
+									href="#contact"
+									aria-label="Nav contact">
+									Contact</a
+								>
+							</li>
+							<li class="nav-item mx-lg-3">
+								<a
+									class="nav-link rounded-4 bi bi-facebook"
+									href="https://www.facebook.com/people/MEDS-TREE-Removal/100052188323229/"
+									target="_blank"
+									aria-label="Nav facebook link">
+									Facebook</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- !PAGE CONTENT! -->
+		<!-- Featured Photos -->
+		<div id="bgImg">
+			<section id="featuredPics">
+				<div
+					id="carousel"
+					class="carousel slide ms-auto me-auto"
+					data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<!-- i don't know how to make the active dynamic so i just included one to start then added the rest of the content with JS -->
+							<img
+								src="public/img/equip1.jpg"
+								class="d-block w-100"
+								alt="work Equipment" />
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carousel"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carousel"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="homePage">
+				<!-- About section -->
+				<section id="about" class="m-0">
+					<h1 class="display-2 py-3 text-center textShadow">
+						Med's Tree Removal
+					</h1>
+					<div class="container p-0 ms-auto me-auto text-xl-center">
+						<img
+							src="public/img/equipFeat.jpg"
+							alt="Featured Work Equipment"
+							class="img-fluid rounded-4" />
+					</div>
+					<div class="container text-center px-5 pb-3">
+						<h2>About Med's Tree Removal & Landscaping</h2>
+						<p id="aboutText" class="smTextShadow text-center">
+							Med's Tree Removal is family owned and operated, serving Harnett,
+							Johnston, Wake, Cumberland, and surrounding areas. Our business is
+							insured, and we guarantee that you will be satisfied with any work
+							we do for you. We have multiple vehicles and equipment that allow
+							us to serve a variety of needs in your home or business. The owner
+							has over 20 years of experience in tree removal, landscaping, and
+							gardening. Look through our photos, read our reviews, and check
+							out our
+							<a
+								href="https://www.facebook.com/MEDS-TREE-Removal-1080264825320660/"
+								target="_blank"
+								class="text-decoration-none"
+								aria-label="facebook link in about paragraph"
+								>Facebook</a
+							>
+							page. To contact us for a FREE ESTIMATE please feel free to call,
+							text, email, message us though Facebook, or use the form at the
+							bottom of the page!
+						</p>
+						<h3 id="service">Services Offered</h3>
+						<div class="row py-4" id="services">
+							<div class="col-12 col-sm-6 smTextShadow">
+								<ul>
+									<li>Tree Removal</li>
+									<li>Tree Trimming</li>
+									<li>Stump Removal</li>
+									<li>Debris Clean-up</li>
+								</ul>
+							</div>
+							<div class="col-12 col-sm-6 smTextShadow">
+								<ul>
+									<li>Yard Clean-up</li>
+									<li>Gravel or Mulch</li>
+									<li>Lot Clearing</li>
+									<li>And Much More</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Facebook Reviews -->
+					<h4
+						class="display-4 ms-auto me-auto text-center textShadow"
+						id="reviews">
+						Reviews
+					</h4>
+
+					<section class="fbReview text-center py-3 pb-5 mx-lg-5 smTextShadow">
+						<div
+							id="carouselReviews"
+							class="carousel ms-auto me-auto slide"
+							data-bs-ride="carousel">
+							<a
+								href="https://www.facebook.com/profile.php?id=100052188323229&sk=reviews"
+								target="_blank"
+								class="text-decoration-none"
+								aria-label="Facebook link to facebook reviews">
+								<div class="carousel-inner">
+									<div class="carousel-item active" data-bs-interval="1">
+										<p class="d-block w-100"></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</section>
+				</section>
+
+				<!-- Contact Form -->
+				<div id="contactBody">
+					<section class="card text-center mx-auto px-0" id="contact">
+						<div class="card-body">
+							<h5 class="display-6">Contact Us</h5>
+							<p id="contactDes">
+								Please enter a general description of the job needed and include
+								the best day and time to contact.
+							</p>
+							<form
+								method="post"
+								name="myemailform"
+								action="public/php/form-to-email.php">
+								<div class="row">
+									<div class="col-12 pt-3 col-xl-7">
+										<div class="input-group">
+											<span class="input-group-text">Name:</span>
+											<input
+												type="text"
+												class="form-control"
+												name="name"
+												placeholder="Name"
+												aria-label="Full Name"
+												aria-required="true"
+												required />
+										</div>
+									</div>
+									<div class="col-12 pt-4 pt-xl-3 col-xl">
+										<div class="input-group">
+											<span class="input-group-text">Phone Number:</span>
+											<input
+												type="tel"
+												id="phoneNumber"
+												maxlength="12"
+												class="form-control"
+												name="number"
+												placeholder="999-999-9999"
+												aria-label="Phone Number"
+												aria-required="true"
+												pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+										</div>
+									</div>
+								</div>
+								<div class="row py-4">
+									<div class="col-12">
+										<div class="input-group">
+											<span class="input-group-text">Email:</span>
+											<input
+												type="email"
+												class="form-control"
+												name="email"
+												placeholder="Email"
+												aria-label="Email"
+												aria-required="true"
+												required />
+										</div>
+									</div>
+								</div>
+
+								<div class="card-text pb-3">
+									<div class="input-group">
+										<span class="input-group-text">Message:</span>
+										<textarea
+											class="form-control"
+											name="message"
+											placeholder="Start Typing here"
+											aria-label="Message"
+											aria-required="true"
+											rows="5"
+											required></textarea>
+									</div>
+								</div>
+								<button
+									type="submit"
+									name="submit"
+									class="btn btn-dark btn-lg my-3"
+									aria-label="Submit button">
+									Request FREE Estimate
+								</button>
+							</form>
+						</div>
+					</section>
+				</div>
+
+				<!-- End page content -->
+				<!-- Footer -->
+				<footer class="container text-center smTextShadow">
+					<div class="row my-2">
+						<a
+							href="https://www.facebook.com/MEDS-TREE-Removal-1080264825320660/"
+							target="_blank"
+							class="text-decoration-none"
+							><i class="bi bi-facebook" aria-label="Footer FaceBook Link"></i
+							><span> Med's Tree Removal</span></a
+						>
+					</div>
+					<div class="row mb-2">
+						<span
+							><i class="bi bi-envelope-fill"></i>
+							MedsTreeRemoval@gmail.com</span
+						>
+					</div>
+					<div class="row pb-5">
+						<span><i class="bi bi-telephone-fill"></i> (910)-286-1052</span>
+					</div>
+				</footer>
+				<!-- My js -->
+				<script src="public/js/med.js"></script>
+				<!-- need this for the php / request appointment form 
+Code for validating the form
+Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+for details -->
+				<script src="public/js/gen_validatorv31.js"></script>
+				<script>
+					var frmvalidator = new Validator('myemailform');
+					frmvalidator.addValidation('name', 'req', 'Please provide your name');
+					frmvalidator.addValidation(
+						'number',
+						'req',
+						'Please provide your phone number'
+					);
+					frmvalidator.addValidation(
+						'email',
+						'req',
+						'Please provide your email address'
+					);
+					frmvalidator.addValidation(
+						'email',
+						'email',
+						'Please enter a valid email address'
+					);
+				</script>
+				<script>
+					getFbReviews();
+					equipCarousel();
+					phoneNumber();
+				</script>
+			</section>
+		</div>
+	</body>
+</html>

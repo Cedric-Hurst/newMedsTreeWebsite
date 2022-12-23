@@ -1,0 +1,404 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ############################################################################################### */
+/* 
+				Above is the fresh start css code ^
+				Below is my css
+*/
+/* ############################################################################################### */
+
+body {
+	font-family: 'PT Serif', serif;
+}
+h2 {
+	font-size: 2.5rem;
+	line-height: 4.5rem;
+	font-weight: 400;
+	text-shadow: 1px 1px 3px black;
+}
+#service {
+	font-size: 2rem;
+	line-height: 2rem;
+	padding-top: 50px;
+	text-shadow: 1px 1px 3px black;
+}
+h4 {
+	font-size: xx-large;
+	color: #f1f1f1;
+}
+h5,
+#contact > h3 {
+	padding: 1rem 1.5rem;
+}
+footer {
+	color: #f1f1f1;
+	margin-bottom: 0px;
+	margin-top: 25px;
+	line-height: 2.5rem;
+	font-size: larger;
+}
+nav {
+	transition: 0.75s;
+}
+
+/* classes */
+.navBrand {
+	font-size: larger;
+}
+.navText {
+	font-size: x-large;
+	color: gold;
+}
+.navHeadColor {
+	background: #616161;
+}
+.nav-link:hover {
+	background: rgb(83, 102, 56);
+	color: #f1f1f1;
+	cursor: pointer;
+}
+.fbReview {
+	font-size: larger;
+	line-height: 2rem;
+	height: 275px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.starRate {
+	color: gold;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.forceHeight {
+	height: 225px;
+	width: 300px;
+}
+.contactForm {
+	background: hsla(0, 0%, 38%, 0.8);
+}
+.imgEffect {
+	transition: 150ms ease-in-out;
+}
+.imgEffect:hover,
+.imgEffect:focus {
+	background: rgb(128, 132, 25);
+	transform: scale(1.1);
+	filter: brightness(120%);
+	cursor: pointer;
+}
+.pagination > li > a {
+	background-color: white;
+	color: rgb(128, 132, 25);
+}
+.pagination > .active > a {
+	color: white;
+	background-color: rgb(128, 132, 25) !important;
+	border: solid 1px rgb(83, 102, 56) !important;
+}
+
+.pagination > .active > a:hover {
+	background-color: rgb(128, 132, 25) !important;
+	border: solid 1px rgb(83, 102, 56);
+	cursor: pointer;
+}
+.h1Gal {
+	font-size: 3rem;
+	font-weight: 300;
+	text-shadow: 1px 1px 3px black;
+}
+.h2Gal {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: gold;
+	text-shadow: #fc0 1px 0 10px;
+}
+.medBg {
+	background-color: hsla(0, 0%, 38%, 0.8);
+}
+.textShadow {
+	text-shadow: 1px 1px 3px black;
+}
+.smTextShadow {
+	text-shadow: 1px 1px 1px black;
+}
+.revTrans {
+	transition: 2s;
+	color: #f1f1f1;
+}
+.revTrans:hover {
+	transition: 0.5s;
+	background: hsla(0, 0%, 0%, 0.2);
+	scale: 1.01;
+	cursor: pointer;
+}
+
+.blink {
+	animation: blink-text 2500ms linear infinite;
+}
+
+@keyframes blink-text {
+	0% {
+		color: gold;
+		opacity: 1;
+	}
+	20% {
+		color: gold;
+		opacity: 0.9;
+	}
+	30% {
+		color: gold;
+		opacity: 0.8;
+	}
+	40% {
+		color: gold;
+		opacity: 0.7;
+	}
+	50% {
+		color: gold;
+		opacity: 0.6;
+	}
+	60% {
+		color: gold;
+		opacity: 0.1;
+	}
+	70% {
+		color: gold;
+		opacity: 0.6;
+	}
+	80% {
+		color: gold;
+		opacity: 0.7;
+	}
+	90% {
+		color: gold;
+		opacity: 1;
+	}
+	100% {
+		color: gold;
+		opacity: 1;
+	}
+}
+
+/* ids */
+#bgImg,
+#galBgImg {
+	/* Photo by Jason Leem on Unsplash*/
+	background-image: url('../img/trees.jpg');
+	background-size: cover;
+}
+#featuredPics {
+	padding-top: 35px;
+}
+#about {
+	color: #f1f1f1;
+	background: hsla(0, 0%, 38%, 0);
+}
+#contactBody {
+	padding-bottom: 25px;
+}
+#contact {
+	width: 100%;
+}
+#contactDes,
+#aboutText {
+	line-height: 1.8rem;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+#homePage {
+	background: hsla(0, 0%, 38%, 0.8);
+}
+#services {
+	line-height: 3rem;
+	font-size: x-large;
+	color: white;
+}
+#galleryPage {
+	background: hsla(0, 0%, 100%, 0.8);
+}
+#modalPic {
+	height: 90vh;
+	background-size: contain;
+	background-repeat: no-repeat no-repeat;
+	background-position: center center;
+}
+
+/* small breakpoint */
+@media (max-width: 575px) {
+	#services {
+		line-height: 2rem;
+		font-size: large;
+	}
+	h2 {
+		font-size: 1.25rem;
+		line-height: 2.5rem;
+	}
+	#aboutText {
+		line-height: 1.25rem;
+		font-size: medium;
+	}
+	.fbReview {
+		height: 375px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 1.25rem;
+	}
+}
+/* medium breakpoint */
+@media (min-width: 768px) {
+	#contact {
+		width: 80%;
+	}
+	.fbReview {
+		height: 250px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+/* large breakpoint */
+@media (min-width: 992px) {
+	.carousel {
+		width: 100%;
+	}
+	#featuredPics {
+		padding-top: 55px;
+		width: 65%;
+		margin-left: 17.5%;
+	}
+	#homePage,
+	#galleryPage,
+	.contactForm,
+	.medBg {
+		width: 65%;
+		margin-left: 17.5%;
+	}
+}
+/* x-large breakpoint */
+@media (min-width: 1200px) {
+	#contact {
+		width: 80%;
+	}
+}
